@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @workspace/casseli-tools run build",
+  "outputDirectory": "artifacts/casseli-tools/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "env": {
+    "BASE_PATH": "/",
+    "PORT": "3000"
+  }
+}
